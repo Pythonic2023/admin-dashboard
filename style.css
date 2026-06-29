@@ -2,6 +2,10 @@ body, html {
     margin: 0px;
 }
 
+a {
+    padding-top: 3%;
+}
+
 .container {
     height: 100vh;
     display: grid;
@@ -10,8 +14,28 @@ body, html {
 }
 
 .header {
+    display: grid;
+    grid-column: 2;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
     background-color: lightblue;
-    grid-column: 2 / 3;
+}
+
+.row-one-group {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column: 1 / 3;
+}
+
+.row-one-group input {
+    width: 40%;
+}
+
+.row-two-group {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column: 1 / 3;
 }
 
 .main {
@@ -21,10 +45,6 @@ body, html {
 }
 
 /*SIDE BAR START*/
-
-a {
-    padding-top: 3%;
-}
 
 .sidebar {
     grid-row: 1 / 3;
@@ -45,3 +65,5 @@ a {
 }
 
 /*SIDE BAR END*/
+
+
