@@ -1,0 +1,47 @@
+body, html {
+    margin: 0px;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
+}
+
+.header {
+    background-color: lightblue;
+    grid-column: 2 / 3;
+}
+
+.main {
+    background-color: blue;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+/*SIDE BAR START*/
+
+a {
+    padding-top: 3%;
+}
+
+.sidebar {
+    grid-row: 1 / 3;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+}
+
+.link-section-one,
+.link-section-two {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.sidebar-logo h1 {
+    margin-bottom: 0;
+}
+
+/*SIDE BAR END*/
