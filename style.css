@@ -92,7 +92,7 @@ a {
 
 .row-two-right {
     display: flex;
-    gap: 10%;
+    gap: 5%;
     align-items: center;
 }
 
@@ -220,7 +220,10 @@ a {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 600;
+    width: fit-content;
+    height: fit-content;
     color: white;
+    margin: 3%;
 }
 
 .link-section-one,
