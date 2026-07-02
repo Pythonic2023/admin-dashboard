@@ -60,6 +60,8 @@ a {
 .row-one-group input {
     width: 70%;
     border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: lightgrey;
 }
 
 .row-two-group {
